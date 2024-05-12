@@ -89,7 +89,7 @@ public class Encoder {
         hashMap.put('/', 43);
 
         // CHANGE VARIABLES HERE FOR TESTING
-        char offset = 'B'; 
+        char offset = 'E'; 
         String plainText = "HELLO WORLD";
         String encodedText = "GDKKN VNQKC";
 

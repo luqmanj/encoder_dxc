@@ -93,14 +93,17 @@ public class Encoder {
         String plainText = "HELLO WORLD";
         String encodedText = "GDKKN VNQKC";
 
+        System.out.println("Initial Plain Text: " + plainText);
+        System.out.println("Initial Encoded Text: " + encodedText);
+
         // Create Encoder instance with the reference table and offset character
         Encoder encoder = new Encoder(hashMap, offset);
 
-
+        System.out.println();
 
         // Use encoder object for encoding or decoding
-        System.out.println("Encoded Text: " + encoder.encode(plainText));
-        System.out.println("Plain Text: " + encoder.decode(encodedText));
+        System.out.println("Encoded Text (After Encoding Function): " + encoder.encode(plainText));
+        System.out.println("Plain Text (After Decoding Function): " + encoder.decode(encodedText));
         
 
     }
